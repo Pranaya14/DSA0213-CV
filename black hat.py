@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Load the image
-img = cv2.imread("C:/Users/Dama Prasoona/Downloads/22.png", 0)
+img = cv2.imread("C:/Users/Downloads/22.png", 0)
 
 # Define the structuring element
 kernel = cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (5,5))
