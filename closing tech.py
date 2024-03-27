@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Read the input image
-img = cv2.imread("C:/Users/Dama Prasoona/Downloads/22.png", cv2.IMREAD_GRAYSCALE)
+img = cv2.imread("C:/Users/Downloads/22.png", cv2.IMREAD_GRAYSCALE)
 
 # Define the kernel size and shape
 kernel_size = 3
